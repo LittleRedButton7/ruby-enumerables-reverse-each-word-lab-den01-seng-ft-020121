@@ -6,7 +6,7 @@ def reverse_each_word(string)
  #return the sentence with each reversed word
  array = string.split(" ")
  array.collect do |word|
-   word.str.reverse
+   word.reverse
  end
 
 end
