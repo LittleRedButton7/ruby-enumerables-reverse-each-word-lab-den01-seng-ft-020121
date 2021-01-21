@@ -8,6 +8,5 @@ def reverse_each_word(string)
 
  array.collect do |word|
    word.reverse!
-  binding.pry
  end
 end 
