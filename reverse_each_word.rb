@@ -5,8 +5,9 @@ def reverse_each_word(string)
  #use the .collect method to reverse the letters in each Array
  #return the sentence with each reversed word
  array = string.split(" ")
- binding.pry
+
  array.collect do |word|
    word.reverse
+  binding.pry
  end
 end 
